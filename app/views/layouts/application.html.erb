@@ -19,7 +19,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-            <a class="navbar-brand" href="#">High Noon Coaching</a>
+            <%= link_to 'High Noon Coaching', root_path, class: 'navbar-brand' %>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -27,9 +27,9 @@
           <ul class="nav navbar-nav navbar-right">
             <%= link_to 'Home', root_path, class: 'navbar-brand' %>
             <%= link_to 'About', about_path, class: 'navbar-brand' %>
-            <li><a href="#">Testimonials</a></li>
-            <li><a href="#">What We Do</a></li>
-            <li><a href="#">Contact</a></li>
+            <%= link_to 'Testimonials', testimonials_path, class: 'navbar-brand' %>
+            <%= link_to 'What We Do', whatwedo_path, class: 'navbar-brand' %>
+            <%= link_to 'Contact', contact_path, class: 'navbar-brand' %>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
@@ -44,9 +44,13 @@
 
   <div id="footer">
     <div class="container">
-      <b>Footer Here</b>
+      <b>Contact</b>
       <br />
-      <%= link_to 'Link', '#' %>
+      <br />
+      <i class="glyphicon glyphicon-phone"></i>&nbsp;&nbsp;&nbsp;&nbsp;+353 86 822 4165      
+      <br />
+      <br />
+      <i class="glyphicon glyphicon-envelope"></i>&nbsp;&nbsp;&nbsp;&nbsp;janine@highnoon.ie
     </div>
   </div>
 

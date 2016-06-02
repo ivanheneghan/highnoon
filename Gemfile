@@ -50,3 +50,6 @@ gem 'sprockets', '2.11.0'
 
 # Use SCSS for stylesheets
 gem 'sass-rails'
+
+# Use MiniMagick
+gem 'mini_magick'

@@ -4,4 +4,13 @@ class PagesController < ApplicationController
 
   def about
   end
+
+  def testimonials
+  end
+
+  def whatwedo
+  end
+
+  def contact
+  end
 end
